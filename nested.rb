@@ -87,7 +87,11 @@ def adding_matz
         }
      }
 
+<<<<<<< HEAD
 programmer_hash = {:yukihiro_matsumoto => {:known_for => "Ruby", :languages => ["LISP", "C"]}}
+=======
+programmer_hash[:yukihiro_matsumoto => {:known_for => "Ruby", :languages => ["LISP", "C"]]
+>>>>>>> 091ef9d2b570c09789d0bc3a67e6c9f45de12dc1
     
 end
 
@@ -132,6 +136,6 @@ def adding_to_dennis
      }
      
      programmer_hash[:dennis_ritchie][:languages] << "Assembly"
-     programmer_hash
+     programmer_has
 
 end
